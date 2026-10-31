@@ -23,10 +23,6 @@ doc: |
       tasks/setup_ubuntu.yaml
 
 steps:
-  - name: directories
-    run: |
-      mkdir -p {git,workdir}
-
   - name: disable_upgrades
     run: |
       systemctl stop unattended-upgrades || true
