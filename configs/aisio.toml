@@ -32,8 +32,8 @@ setup_args = ""
 # homi control plane AiSIO builds on, OpenDS's aisio backend among them, or the
 # io_uring_dmabuf backend. core.repository_prep checks out whatever 'tag' names
 [xnvme.repository]
-remote = "https://github.com/xnvme/xnvme"
-tag = "3b79ab10d14bcc580e4aa9ce6d1b4cc5679d0de9"
+remote = "https://github.com/safl/xNVMe"
+tag = "6a3f55daaa62d97d4bb2bdc7426f10a7b7ac3e7f"
 path = "/root/aisio/xnvme"
 
 # The experimental package carries the version of the uPCIe release it ships
